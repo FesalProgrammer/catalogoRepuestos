@@ -2,6 +2,15 @@ nav {
   background-color: pink;
   padding: 10px;
 }
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  color: rgb(235, 49, 142) !important;
+}
 .navbar-toggler-icon {
     background-color: rgb(220, 59, 59) !important;
 }

@@ -1,18 +1,22 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./styleEstatico.css";
 import Cart from "../Cart";
 import { FaShoppingCart } from "react-icons/fa";
 import logo from "../../assets/logo.jpg";
-import { CartContext } from '../../context/CartContext';
+import { CartContext } from "../../context/CartContext";
 
 const Header = () => {
-  
+  const [collapsed, setCollapsed] = useState(true);
+
   const { cart } = useContext(CartContext);
   // const cartCount = cart.length; //cantidad de items en el carrito
-  const cartCount = cart.reduce((total, item) => total + (item.cantidad || 1), 0);// cantidad total de productos agregados al carrito.
+  const cartCount = cart.reduce(
+    (total, item) => total + (item.cantidad || 1),
+    0
+  ); // cantidad total de productos agregados al carrito.
 
-  const {setCartOpen} = useContext(CartContext)
+  const { setCartOpen } = useContext(CartContext);
 
   return (
     <header>
@@ -20,7 +24,9 @@ const Header = () => {
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             {/* <img src={logo} alt="foto" className="img-logo" /> */}
-            <span className="logo-text">Tienda<span style={{color:'#1976d2'}}>Repuestos</span>Michael</span>
+            <span className="logo-text">
+              Tienda<span style={{ color: "#1976d2" }}>Repuestos</span>Michael
+            </span>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -30,8 +36,40 @@ const Header = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => setCollapsed(!collapsed)}
           >
-            <span className="navbar-toggler-icon"></span>
+            {collapsed ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="2rem"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="2rem"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            )}
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
