@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Productos from "./Productos";
 import { CartContext } from "../context/CartContext";
+import './styleProductos.css';
 
 const ProductList = () => {
   const {
@@ -21,7 +22,7 @@ const ProductList = () => {
   });
 
   return (
-    <>
+    <div className="cards-container">
       {/* <h2
         style={{
           textAlign: "center",
@@ -43,13 +44,12 @@ const ProductList = () => {
           display: "flex",
           justifyContent: "center",
           margin: "40px auto",
-          border:"2px, solid, #1976d2",
+          border:"1px, solid, #253745",
           borderRadius: "10px",
           padding: "8px",
           backgroundColor: "#f5f5f5",
-          color: "#333",
-          fontWeight: "bold",
-          boxShadow: "0 2px 8px rgba(25, 118, 210, 0.08)",
+          color: "#253745",
+          boxShadow: "0 1px 4px rgba(25, 188, 010, 0.08)",
         }}
       />
 
@@ -60,13 +60,14 @@ const ProductList = () => {
           justifyContent: "space-around",
           columnGap: "30px",
           rowGap: "25px",
+          
         }}
       >
         {productosFiltrados.map((producto) => (
           <Productos key={producto.id} producto={producto} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

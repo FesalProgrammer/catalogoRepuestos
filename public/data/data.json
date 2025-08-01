@@ -1,30 +1,30 @@
 [
     {
       "id": 1,
-      "nombre": "Sunderfolk",
+      "nombre": "Poleas 6 canales",
       "precio": 8.5,
       "stock": 2,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDITHetBO-h1pU1UHq2haDR_p9s1bXOfZKEA&s",
+      "imagen": "https://oss.aaastand.com/2025-06-17/1cf644e2-096c-47a4-ba77-1c6ec965ca5a.png",
       "categoria": "clásico",
       "descripcion": "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
     },
     {
       "id": 2,
-      "nombre": "Pokemon",
+      "nombre": "tensor",
       "precio": 9.0,
       "stock": 5,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MhNfm7oj8QEg4dBsb2xh1BHI9oR_ER_Hsg&s",
+      "imagen": "https://oss.aaastand.com/2025-06-17/b067e3af-369b-45f9-9a65-bbc1730c5284.png",
       "categoria": "aventura",
       "descripcion": "Adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
     },
     {
       "id": 3,
-      "nombre": "Split Fiction",
+      "nombre": "Correa de tiempo",
       "precio": 10.0,
       "stock": 12,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRC3y0-fPZzT59c-GhWpWT0Tu3OrkeR102Q&s",
+      "imagen": "https://oss.aaastand.com/2025-06-17/2e7eef72-2782-4a3b-89c2-1d1cad38e97f.png",
       "categoria": "accion",
       "descripcion": "Dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1

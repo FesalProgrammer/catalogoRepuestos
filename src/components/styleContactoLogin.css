@@ -1,10 +1,31 @@
-.container-contacto {
+.contactos {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 79.6vh;
+  align-items: center;
+  min-height: 75vh;
+  
 }
+.contactos-container h2 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid white;
+  width: 50%;
+  
+}
+.contactos-container p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  opacity: 0.5;
+  border: 1px solid white;
+  width: 100%;
+  
+}
+
+
+
 .container-login {
   display: flex;
   flex-direction: column;
@@ -26,7 +47,7 @@
 
 .tituloContacto {
   font-size: 1.6rem;
-  color: var(--color-titulo);
+  color: white;
   font-weight: 600;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -83,8 +104,24 @@ textarea::placeholder {
     margin-top: -300px;
   }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container-contacto {
-    margin-top: -100px;
+    margin-top: -150px; 
+    height: 100vh;
+  }
+} */
+@media (max-width: 480px) {
+  .container-contacto {
+    height: 105vh;
+    /* margin-top: -220px; */
+    margin: -100 auto;
+    padding: 8px;
+  }
+  .direccion {
+    /* margin-top: 35px; */
+    font-size: 1.2rem;
+  }
+  .contactSubtitulos {
+    font-size: 1.2rem;
   }
 }

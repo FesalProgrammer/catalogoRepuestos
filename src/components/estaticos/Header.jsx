@@ -25,7 +25,7 @@ const Header = () => {
           <NavLink className="navbar-brand" to="/">
             {/* <img src={logo} alt="foto" className="img-logo" /> */}
             <span className="logo-text">
-              Tienda<span style={{ color: "#1976d2" }}>Repuestos</span>Michael
+              Tienda<span style={{ color: "white" }}>Repuestos</span>Michael
             </span>
           </NavLink>
           <button
@@ -85,7 +85,7 @@ const Header = () => {
               </li> */}
               <li className="nav-item">
                 <NavLink className="link" to="/">
-                  Catalogo de productos
+                  Repuestos
                 </NavLink>
               </li>
               <li className="nav-item">

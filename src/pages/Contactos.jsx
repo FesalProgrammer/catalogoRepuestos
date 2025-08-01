@@ -24,52 +24,20 @@ export default function Contactos() {
   return (
     <>
       <Header />
-      <div className="container-contacto">
-        <form className="formArea" onSubmit={manejarEnvio}>
-          <h2 className="tituloContacto">Contacto</h2>
-          <div>
-            <input
-              className="campo"
-              type="text"
-              placeholder="Ingresa tu nombre"
-              value={nombre}
-              onChange={(e) => setNombre(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <input
-              className="campo"
-              type="text"
-              placeholder="Ingresa tu apellido"
-              value={apellido}
-              onChange={(e) => setApellido(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <input
-              className="campo"
-              type="email"
-              placeholder="Ingresa tu email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <textarea
-            className="txtarea"
-            name="message"
-            cols="30"
-            rows="5"
-            placeholder="Escribe tu mensaje aqui:"
-          ></textarea>
-          <div>
-            <button type="submit" className="btnEnviar">
-              Enviar
-            </button>
-          </div>
-        </form>
+      <div className="contactos">
+        <div className="contactos-container">
+          <h2>
+            Visitanos
+          </h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <h2>
+            Telefonos
+          </h2>
+          <p>04xx xxx yy zz</p>
+        </div>
+        
+        
       </div>
       <Footer />
     </>

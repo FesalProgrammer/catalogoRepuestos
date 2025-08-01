@@ -1,13 +1,14 @@
 .card {
   width: 250px;
   height: 400px;
-  background-color: var(--card-background-color);
+  background-color: rgb(246, 242, 243);
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  
 }
 .card:hover {
   transform: scale(1.01);
@@ -15,8 +16,8 @@
 }
 
 .imagenContainer {
-  width: 250px;
-  height: 180px;
+  width: 245px;
+  height: 170px;
   background-color: #f0f0f0;
   border-radius: 12px;
   overflow: hidden;

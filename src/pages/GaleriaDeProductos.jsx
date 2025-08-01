@@ -4,6 +4,7 @@ import Footer from "../components/estaticos/Footer";
 import ProductList from "../components/ProductList";
 import loading from "../assets/loading.gif";
 import { CartContext } from "../context/CartContext";
+import Banner from "../components/Banner";
 
 const GaleriaDeProductos = () => {
   const { cargando } = useContext(CartContext);
@@ -11,6 +12,7 @@ const GaleriaDeProductos = () => {
   return (
     <>
       <Header />
+      <Banner />
 
       {cargando ? <img src={loading} alt="loading" /> : <ProductList />}
 

@@ -34,7 +34,7 @@
     list-style: none;
 }
 body {
-    background-color: var(--fondo-oscuro);
+    background-color: blue;
     color: var(--color-blanco);
     font-family: var(--fuente-primaria), sans-serif;
 }
