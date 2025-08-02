@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "nombre": "Rebel Princess",
+      "nombre": "Repuestos Corsa",
       "precio": 9.5,
       "stock": 15,
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNS1HuNYb0yape5G4UGLLAgugEfC_1HOj5w&s",
@@ -41,85 +41,44 @@
     },
     {
       "id": 5,
-      "nombre": "Frost haven",
-      "precio": 8.0,
-      "stock": 20,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxA3tVEuskfX4_rzLmN-P6sGe1Xxt3NqnaQ&s",
+      "nombre": "Pastilla Freno Corsa",
+      "precio": 13.0,
+      "stock": 10,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_790848-MLV48371753323_112021-O.webp",
       "categoria": "tropical",
       "descripcion": "Amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
     },
     {
       "id": 6,
-      "nombre": "Fellowship",
-      "precio": 6.0,
+      "nombre": "Kit Clutch Fiat Uno",
+      "precio": 71.0,
       "stock": 30,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTIC3PWfoltti41ECsSOyTMuPUVNiZU0VREQ&s",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_805311-MLV83907060622_042025-O.webp",
       "categoria": "sin alcohol",
       "descripcion": "Llor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
     },
     {
       "id": 7,
-      "nombre": "Castle Cat 2",
-      "precio": 8.0,
+      "nombre": "Mozo Delantero Corsa",
+      "precio": 18.0,
       "stock": 20,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqbOemLLFDbQ54sXUzp9LCxf9gKJccMmNFQ&s",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_601722-MLV85404628882_062025-F.webp",
       "categoria": "comedia",
       "descripcion": "Tamet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
     },
     {
       "id": 8,
-      "nombre": "Angry Birds",
+      "nombre": "Terminal Direccion Toyota",
       "precio": 8.0,
       "stock": 20,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDea0aRfcP7uU8I8c6JQ9I-al1aqNmn_8EQ&s",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_949344-MLV53860798621_022023-F.webp",
       "categoria": "accion",
       "descripcion": "Aamet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "cantidad": 1
-    },
-    {
-      "id": 9,
-      "nombre": "Army of the Dead",
-      "precio": 8.0,
-      "stock": 20,
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rStZTYu9HwCwi2ZU8PfxC-bF52n4YIyjSA&s",
-      "categoria": "aventura",
-      "descripcion": "Uum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "cantidad": 1
-    },
-    {
-      "id": 10,
-      "nombre": "Game Room",
-      "precio": 8.0,
-      "stock": 20,
-      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/minimalist-black-space-twitch-banner-design-template-2bfd970b2b20a4472a1a05a68fc0ce33.webp?ts=1732866095",
-      "categoria": "tropical",
-      "descripcion": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "cantidad": 1
-    },
-    {
-      "id": 11,
-      "nombre": "Gaming Time",
-      "precio": 8.0,
-      "stock": 20,
-      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-gaming-cover-art-template-9767056daa7156a3ca309c5bf043cd9c.webp?ts=1698380300",
-      "categoria": "comedia",
-      "descripcion": "Ssectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "cantidad": 1
-    },
-    {
-      "id": 12,
-      "nombre": "Your Channel",
-      "precio": 8.0,
-      "stock": 20,
-      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-channel-cover-template-design-832750cd36d7c698f8d120d9dbb0be77.jpg?ts=1697850028",
-      "categoria": "accion",
-      "descripcion": "Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "cantidad": 1
     }
-
     
   ]
   
