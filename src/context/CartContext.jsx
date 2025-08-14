@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import { toast } from "react-toastify";
+import { dataList } from "../datas/data_2";
 
 export const CartContext = createContext();
 
@@ -12,23 +13,32 @@ export const CartProvider = ({ children }) => {
   const [isAuthenticated, setIsAuth] = useState(false);
   const [isCartOpen, setCartOpen] = useState(false);
 
-  useEffect(() => {
-    fetch("/data/data.json")
-      .then((respuesta) => respuesta.json())
-      .then((datos) => {
-        setProductos(datos);
-        setCargando(false);
+  // useEffect(() => {
+    // fetch("/data/data.json")
+    //   .then((respuesta) => respuesta.json())
+    //   .then((datos) => {
+    //     setProductos(datos);
+    //     setCargando(false);
         // setTimeout(() => {
         //   setProductos(datos);
         //   setCargando(false);
         // }, 1500);
-      })
-      .catch((error) => {
-        console.log("Error", error);
-        setCargando(false);
-        setError(true);
-      });
-  }, []);
+  //     })
+  //     .catch((error) => {
+  //       console.log("Error", error);
+  //       setCargando(false);
+  //       setError(true);
+  //     });
+  // }, []);
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setProductos(dataList);
+    setCargando(false);
+  }, 1000);
+  return () => clearTimeout(timer);
+}, []);
+
 
   const handleAddToCart = (product) => {
     setCartOpen(true);

@@ -11,11 +11,28 @@
 .contenedor-detalle-producto {
   margin-bottom: 1.5rem;
 }
+.imgDetalle {
+  border: 1px solid #ddd;
+  
+}
+.texto-detalle {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
 .subtitulo-detalle{
   color: #333;
   cursor: pointer;
 }
-
+.btn-ir-inicio {
+  background-color: var(--color-boton);
+  transition: background-color 0.2s, transform 0.2s;
+}
+.btn-ir-inicio:hover {
+  transform: scale(1.05);
+  background-color: blue !important;
+}
 @media (max-width: 480px) {
   .section-detalles {
     width: 340px;

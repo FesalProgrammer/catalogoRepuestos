@@ -22,7 +22,7 @@ const DetallesProductos = () => {
       <section
         className="section-detalles"
         style={{
-          maxWidth: "500px",
+          maxWidth: "490px",
           margin: "32px auto",
           padding: "2rem",
           border: "1px solid #eee",
@@ -31,53 +31,58 @@ const DetallesProductos = () => {
           background: "#fff",
         }}
       >
-        <h1 className="titulo-detalle" style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--color-titulo)" }}>
+        {/* <h1 className="titulo-detalle" style={{ fontSize: "2rem", marginBottom: "1rem", color: "var(--color-titulo)" }}>
           {product.nombre}
-        </h1>
+        </h1> */}
         {product.imagen && (
           <img className="imgDetalle"
             src={product.imagen}
             alt={product.nombre}
             style={{
               width: "100%",
-              maxHeight: "550px",
+              maxHeight: "590px",
               objectFit: "cover",
               borderRadius: "8px",
-              marginBottom: "1.5rem",
+              marginBottom: "1.2rem",
             }}
           />
         )}
         <p className="descripcion-detalle" style={{ fontSize: "1.1rem", marginBottom: "1rem", color: "#555" }}>
           {product.descripcion}
         </p>
-        <p className="precio-detalle" style={{ fontWeight: "bold", fontSize: "1.3rem", color: "var(--color-titulo)" }}>
+        {/* <p className="precio-detalle" style={{ fontWeight: "bold", fontSize: "1.3rem", color: "var(--color-titulo)" }}>
           Precio: ${product.precio}
-        </p>
+          Pregunta al whatsapp: 04x-xxx-xxxx
+        </p> */}
         <div className="contenedor-detalle-producto" style={{ marginBottom: "1.5rem" }}>
           <h5
             className="subtitulo-detalle" style={{  color: "#333", cursor: "pointer" }}
           >
             Detalle del producto
           </h5>
-          <ul className="texto-detalle" style={{paddingLeft:"0.2rem", color: "#555" }}>
-            <li>Marca: Acme</li>
-            <li>Categoría: {product.categoria}</li>
-            <li>SKU: {product.id * 1250}</li>
-            <li>
+          <ul className="texto-detalle" style={{paddingLeft:"0.1rem", color: "#555" }}>
+            <li style={{  color: "#555"}}>Marca: {product.marca}</li>
+            <li>Vehiculos: {product.vehiculos}</li>
+            <li>Años: {product.año}</li>
+            {/* <li>
               Fecha de lanzamiento:{" "}
               {new Date().toLocaleDateString("es-ES", {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
               })}
-            </li>
+            </li> */}
           </ul>
         </div>
 
-        <p style={{ fontSize: "1rem", color: "#555", marginBottom: "1.5rem" }}>
+        {/* <p style={{ fontSize: "1rem", color: "#555", marginBottom: "1.5rem" }}>
           Stock: {product.stock}
-        </p>
-        <Link
+        </p> */}
+        {/* <p className="precio-detalle" style={{ fontWeight: "bold", fontSize: "1.3rem", color: "var(--color-titulo)" }}>
+          Precio: ${product.precio}
+          Pregunta al whatsapp: 04x-xxx-xxxx
+        </p> */}
+        <Link className="btn-ir-inicio"
           to="/"
           style={{
             display: "inline-block",

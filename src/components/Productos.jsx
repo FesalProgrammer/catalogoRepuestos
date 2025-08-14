@@ -24,9 +24,9 @@ const Productos = ({ producto }) => {
         </div>
 
         <h3 className="nombre">{producto.nombre}</h3>
-        <p className="precio">${producto.precio}</p>
+        {/* <p className="precio">${producto.precio}</p> */}
         <p className="stock">Stock: {producto.stock}</p>
-
+        <p className="stock">Ref#: {producto.id}</p>
         {/* <div className='cantidadContainer'>
         <button className='qtyButton' onClick={decrease}>-</button>
         <span>{cantidad}</span>
@@ -35,7 +35,7 @@ const Productos = ({ producto }) => {
 
         {/* <button style={{border:"none", borderRadius:'10px' , backgroundColor:'var(--color-boton)',color:'white', padding:'6px 10px'}} onClick={()=> handleAddToCart({...producto, cantidad:cantidad})}>Agregar al carrito</button> */}
 
-        <Link
+        <Link className="botonMasDetalles"
           to={`/productos/${producto.id}`}
           style={{
             display: "inline-block",
@@ -45,7 +45,7 @@ const Productos = ({ producto }) => {
             borderRadius: "6px",
             textDecoration: "none",
             fontWeight: "bold",
-            marginTop: "1rem",
+            marginTop: "1.5rem",
             marginBottom: "0.3rem",
           }}
         >

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Productos from "./Productos";
 import { CartContext } from "../context/CartContext";
-import './styleProductos.css';
+import "./styleProductos.css";
 
 const ProductList = () => {
   const {
@@ -23,18 +23,6 @@ const ProductList = () => {
 
   return (
     <div className="cards-container">
-      {/* <h2
-        style={{
-          textAlign: "center",
-          marginBottom: "25px",
-          marginTop: "25px",
-          color: "var(--color-titulo)",
-        }}
-      >
-        Videojuegos disponibles
-        <span role="img" aria-label="videojuegos"> 🎮</span>
-      </h2> */}
-
       <input
         type="text"
         placeholder="Buscar productos..."
@@ -44,7 +32,7 @@ const ProductList = () => {
           display: "flex",
           justifyContent: "center",
           margin: "40px auto",
-          border:"1px, solid, #253745",
+          border: "1px, solid, #253745",
           borderRadius: "10px",
           padding: "8px",
           backgroundColor: "#f5f5f5",
@@ -60,7 +48,6 @@ const ProductList = () => {
           justifyContent: "space-around",
           columnGap: "30px",
           rowGap: "25px",
-          
         }}
       >
         {productosFiltrados.map((producto) => (

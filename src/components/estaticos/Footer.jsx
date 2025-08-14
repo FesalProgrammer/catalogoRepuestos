@@ -6,7 +6,18 @@ import flecha from "../../assets/flecha-hacia-arriba.png";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2025 - Mi App - Derechos reservados</p>
+      <p>&copy; 2025 - Derechos reservados </p>
+      <a
+              href=""
+              className="flechaArriba"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              aria-label="Ir arriba"
+            >
+              <img src={flecha} alt="foto flecha" className="img-flecha" />
+            </a>
       {/* <nav className="navegacion">
         <ul className="listaNav">
           <li className="listaItem">

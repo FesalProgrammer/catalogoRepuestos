@@ -27,14 +27,14 @@ export default function Contactos() {
       <div className="contactos">
         <div className="contactos-container">
           <h2>
-            Visitanos
+            Pagina en construccion.
           </h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
+          {/* <p style={{color:"red"}}>En la Urb.Virgen del Valle, calle 1, casa 2-3</p>
+          
           <h2>
             Telefonos
           </h2>
-          <p>04xx xxx yy zz</p>
+          <p style={{color:"red"}}>04xx XXX XX XX</p> */}
         </div>
         
         
